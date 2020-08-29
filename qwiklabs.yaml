@@ -6,13 +6,3 @@ resources:
   type: qwiklabs.jinja
   properties:
     zone: us-central1-a
-
-# Create the firewall rule
-#- name: http-firewall-rule
-#  type: compute.v1.firewall
-#  properties:
-#    sourceRanges: ["0.0.0.0/0"]
-#    targetTags: ["http"]
-#    allowed:
-#    - IPProtocol: HTTP
-#      ports: [80]
